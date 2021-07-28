@@ -1,0 +1,323 @@
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+#app {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    background-color: #0C0C0C;
+}
+
+.left-center {
+    display: inline-block;
+
+    width: auto;
+    height: 100%;
+
+    padding: 20px 30px 30px 30px;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+    /* background-color: #0C0C0C; */
+}
+
+.left-center::-webkit-scrollbar {
+    display: none;
+}
+
+.button-car {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 350px;
+    height: 80px;
+
+    margin-top: 10px;
+
+    color: rgb(252, 252, 252, 0.85);
+    background: linear-gradient(to right, rgb(252, 252, 252, 0.25), rgba(252, 252, 252, 0));
+    border: 2px solid rgb(252, 252, 252, 0.4);
+    border-radius: 5px;
+}
+
+.line {
+    width: 4px;
+    height: 70%;
+
+    margin-right: 20px;
+
+    background-color: rgb(252, 252, 252, 0.25);
+    border-radius: 0 9999px 9999px 0;
+}
+
+.active {
+    background: linear-gradient(to bottom, rgb(41, 122, 227, 0.8), rgba(43, 135, 255, 0));
+    border: 2px solid rgba(0, 49, 112, 0.8);
+}
+
+.active-line {
+    background: rgba(21, 80, 158, 0);
+}
+
+.right-center {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    height: 600px;
+
+    margin: auto;
+
+    top: 0;
+    bottom: 0;
+    right: 30px;
+
+    /* background-color: #0c0c0c33; */
+}
+
+.title-name {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+
+    color: #FCFCFC;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.info-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+
+    margin-top: 20px;
+}
+
+.icon-speed {
+    width: 30px;
+    height: 25px;
+
+    background-image: url(./assets/speedometer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon-speed2 {
+    width: 30px;
+    height: 28px;
+
+    background-image: url(./assets/rocket.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon2 {
+    width: 30px;
+    height: 20px;
+
+    background-image: url(./assets/car.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon3 {
+    width: 30px;
+    height: 25px;
+
+    background-image: url(./assets/racing.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon4 {
+    width: 25px;
+    height: 25px;
+
+    background-image: url(./assets/gas-station.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon5 {
+    width: 40px;
+    height: 20px;
+
+    background-image: url(./assets/trunk-open.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.icon6 {
+    width: 30px;
+    height: 30px;
+
+    background-image: url(./assets/car-seat.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.name-icon {
+    font-family: 'Montserrat';
+    font-size: 18px;
+
+    margin-left: 5px;
+}
+
+.desc-info {
+    font-family: 'Montserrat';
+    font-size: 14px;
+
+    color: rgb(252, 252, 252, 0.45);
+}
+
+.box2345 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(252, 252, 252, 0.85);
+}
+
+.line-vertical {
+    width: 100%;
+    height: 5px;
+
+    margin-top: 15px;
+
+    background-color: rgb(252, 252, 252, 0.4);
+    border-radius: 9999px;
+
+    overflow: hidden;
+}
+
+.line-vertical-load {
+    width: 68%;
+    height: 100%;
+
+    background-color: rgb(41, 122, 227, 0.8);
+}
+
+.bottom-center {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 100px;
+
+    margin: auto;
+
+    left: 0;
+    right: 0;
+    bottom: 30px;
+}
+
+.price {
+    font-family: 'Montserrat';
+    font-size: 22px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+
+    color: rgb(252, 252, 252, 0.85);
+}
+
+.buttons-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 350px;
+    height: auto;
+}
+
+.button {
+    font-family: 'Montserrat';
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 45px;
+
+    color: rgb(252, 252, 252, 0.85);
+    background: rgb(252, 252, 252, 0.25);
+    border: 2px solid rgb(252, 252, 252, 0.4);
+    border-radius: 5px;
+}
+
+.button-active {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 45px;
+
+    color: rgb(252, 252, 252, 0.85);
+    background: rgb(41, 122, 227, 0.8);
+    box-shadow: 0 3px 6px rgb(41, 122, 227);
+    border-radius: 5px;
+}
